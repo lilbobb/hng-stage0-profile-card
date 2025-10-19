@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card - Stage 0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <article class="profile-card" data-testid="test-profile-card">
+    <div class="card-content">
+      <aside class="avatar-section">
+        <figure class="avatar-figure">
+          <img src="/BobAdoga.jpg" alt="Profile picture of Robert Adoga" class="avatar-img"
+            data-testid="test-user-avatar">
+        </figure>
+      </aside>
+
+      <div class="info-section">
+        <header class="card-header">
+          <h2 class="user-name" data-testid="test-user-name">Robert Adoga</h2>
+          <p class="user-bio" data-testid="test-user-bio">
+            I’m a passionate and detail-driven Front-End Software Engineer who thrives on building responsive,
+            user-focused web applications using tools like React, Next.js, TypeScript, and modern UI/UX principles. My
+            background includes a strong foundation in programming, web design, WordPress development, and collaborative
+            open-source contribution.
+          </p>
+          <div class="user-time" data-testid="test-user-time" id="currentTime"></div>
+          <div style="font-size: 0.9rem; color: #718096; margin-top: 10px;" id="readableTime"></div>
+        </header>
+
+        <nav class="social-links" data-testid="test-user-social-links">
+          <h3>Connect With Me</h3>
+          <ul class="social-list">
+            <li>
+              <a href="https://twitter.com/BobAdoga" target="_blank" rel="noopener noreferrer" class="social-link"
+                data-testid="test-user-social-twitter">
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/lilbobb" target="_blank" rel="noopener noreferrer" class="social-link"
+                data-testid="test-user-social-github">
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/RobertAdoga" target="_blank" rel="noopener noreferrer"
+                class="social-link" data-testid="test-user-social-linkedin">
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="details-section">
+          <section class="detail-block">
+            <h3>Hobbies</h3>
+            <ul class="detail-list" data-testid="test-user-hobbies">
+              <li>Photography</li>
+              <li>Traveling to new places</li>
+              <li>watching sci-fi movies</li>
+              <li>Music</li>
+              <li>Cooking</li>
+              <li>cycling</li>
+            </ul>
+          </section>
+
+          <section class="detail-block">
+            <h3>Dislikes</h3>
+            <ul class="detail-list" data-testid="test-user-dislikes">
+              <li>Amala</li>
+              <li>Poorly documented code</li>
+              <li>Cold coffee</li>
+              <li>Spam emails</li>
+              <li>Waking up early</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </article>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
