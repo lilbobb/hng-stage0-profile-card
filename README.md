@@ -6,7 +6,7 @@ Profile Card Component - HNG Internship Stage 0
 A responsive, accessible profile card built with vanilla HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
-[View Live Site](https://your-netlify-url.netlify.app)
+[View Live Site](https://myprofilecardd.netlify.app/)
 
 ## 📋 Features
 - ✅ Fully responsive design (mobile, tablet, desktop)
