@@ -4,16 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Card - Stage 0</title>
+  <title>Robert Adoga - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <nav class="main-nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">Robert Adoga</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <article class="profile-card" data-testid="test-profile-card">
     <div class="card-content">
       <aside class="avatar-section">
         <figure class="avatar-figure">
-          <img src="/BobAdoga.jpg" alt="Profile picture of Robert Adoga" class="avatar-img"
+          <img src="/bob.png" alt="Profile picture of Robert Adoga" class="avatar-img"
             data-testid="test-user-avatar">
         </figure>
       </aside>
@@ -22,7 +33,7 @@
         <header class="card-header">
           <h2 class="user-name" data-testid="test-user-name">Robert Adoga</h2>
           <p class="user-bio" data-testid="test-user-bio">
-            I’m a passionate and detail-driven Front-End Software Engineer who thrives on building responsive,
+            I'm a passionate and detail-driven Front-End Software Engineer who thrives on building responsive,
             user-focused web applications using tools like React, Next.js, TypeScript, and modern UI/UX principles. My
             background includes a strong foundation in programming, web design, WordPress development, and collaborative
             open-source contribution.
@@ -82,7 +93,7 @@
       </div>
     </div>
   </article>
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
